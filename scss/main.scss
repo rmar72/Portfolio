@@ -8,9 +8,9 @@ $secondary_color: #eece1a;
 body {
     background: $primary-color;
     color:#fff;
-    height:100%;
-    margin:0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
 }
 
@@ -39,3 +39,23 @@ header {
     width: 100%;
 }
 
+.text-secondary {
+    color: $secondary_color;
+}
+
+main {
+    padding: 4rem;
+    height: 100%;
+
+    .icons {
+        margin-top: 1rem;
+
+        a {
+            padding: 0.4rem;
+
+            &:hover {
+                color: $secondary_color;
+            }
+        }
+    }
+}
