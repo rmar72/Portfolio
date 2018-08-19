@@ -5,21 +5,21 @@
     right: 35px;
     top: 35px;
     cursor: pointer;
-    @include easeOut;
+    @include easeOut();
 
     .btn-line {
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
         background: #fff;
-        @include easeOut;
+        @include easeOut();
     }
 
     // Rotate into X with menu lines
     &.close {
          transform: rotate(180deg);
 
-         .btn-line{
+         .btn-line {
              // Line 1 - Rotate
             &:nth-child(1){
                 background: $secondary_color;
@@ -41,16 +41,16 @@
 // Menu Overlay
 .menu {
     position: fixed;
-    top:0;
-    width:100%;
+    top: 0;
+    width: 100%;
     opacity: 0.9;
     visibility: hidden;
 
-    &.show{
+    &.show {
         visibility: visible;
     }
 
-    &-branding, 
+    &-branding,
     &-nav {
         display: flex;
         flex-flow: column wrap;
@@ -63,12 +63,12 @@
     }
 
     &-nav {
-        margin:0;
-        padding:0;
+        margin: 0;
+        padding: 0;
         background: darken($primary-color, 5);
         list-style: none;
         transform: translate3d(0,-100%, 0);
-        @include easeOut;
+        @include easeOut();
 
         &.show{
             //Slide in from the top
@@ -78,15 +78,15 @@
 
     &-branding {
         background: $primary-color;
-        transform: translate3d(0,100%, 0);
-        @include easeOut;
-        &.show{
+        transform: translate3d(0, 100%, 0);
+        @include easeOut();
+        &.show {
             //Slide in from the bottom
             transform: translate3d(0, 0, 0);
         }
 
         .portrait {
-            width:250px;
+            width: 250px;
             height: 250px;
             background: url('../img/background.jpg');
             border-radius: 50%;
@@ -94,11 +94,10 @@
         }
     }
 
-
     .nav-item {
         transform: translate3d(600px, 0, 0);
-        @include easeOut;
-        &.show{
+        @include easeOut();
+        &.show {
             //Slide  nav items from the right
             transform: translate3d(0, 0, 0);
         }
@@ -117,7 +116,7 @@
         font-weight: 300;
         color: #fff;
         text-decoration: none;
-        @include easeOut;
+        @include easeOut();
 
         &:hover {
             color: $secondary_color;
@@ -130,5 +129,4 @@
      .nav-item:nth-child(#{$x}){
          transition-delay: $x * 0.1s;
      }
-
  }
