@@ -1,6 +1,6 @@
 @import 'config';
 @import 'menu';
-@import 'mobile';
+
 
 * {
     box-sizing: border-box;
@@ -24,7 +24,7 @@ h1, h2, h3 {
         font-size: 6rem;
     }
     &.sm-heading {
-        font-size: 2rem;
+        margin-bottom: 2rem;
         padding: 0.2rem 1rem;
         background: rgba( lighten($primary-color, 2), 0.6 );
     }
@@ -69,3 +69,5 @@ main {
         }
     }
 }
+
+@import 'mobile'; 
