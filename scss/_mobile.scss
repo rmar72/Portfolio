@@ -1,10 +1,14 @@
 // widescreens
 @include mediaXl{
-    
+    .projects{
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 // desktops & laptops
 @include mediaLg{
-
+    .projects{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 // tablets & small laptops
 @include mediaMd{ 
@@ -91,7 +95,7 @@
         }
 
         .lg-heading {
-        margin-top:1rem;
+        margin-top: 1rem;
         font-size: 5rem;
         }
     }
