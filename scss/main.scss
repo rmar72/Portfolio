@@ -111,8 +111,8 @@ main {
         .card {
             background: lighten($primary-color, 5);
             padding: 0.5rem;
-            border-top: $secondary_color 2px solid;
-            border-bottom: $secondary_color 2px solid;
+            border-top: darken($primary-color, 10) 1px solid;
+            border-bottom: $secondary_color 3px solid;
             margin: 8px;
         }
     }
