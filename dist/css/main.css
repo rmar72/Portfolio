@@ -161,7 +161,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: 'bioimage bio bio' 'edbio edbio edbio';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -170,17 +170,24 @@ main {
     border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
-  .about-info .job-1 {
-    grid-area: job1; }
-  .about-info .job-2 {
-    grid-area: job2; }
-  .about-info .job-3 {
-    grid-area: job3; }
-  .about-info .job {
-    background: #515151;
-    padding: 0.5rem;
-    border-bottom: #eece1a 4px solid; }
+    font-size: 1.3rem; }
+  .about-info .about-education {
+    grid-area: edbio;
+    display: grid; }
+    .about-info .about-education .education-text {
+      grid-area: 1 / 1 / span 1 / span 3; }
+    .about-info .about-education .card-1 {
+      grid-area: 2 / 1 / span 1 / span 1; }
+    .about-info .about-education .card-2 {
+      grid-area: 2 / 2 / span 1 / span 1; }
+    .about-info .about-education .card-3 {
+      grid-area: 2 / 3 / span 1 / span 1; }
+    .about-info .about-education .card {
+      background: #515151;
+      padding: 0.5rem;
+      border-top: #eece1a 2px solid;
+      border-bottom: #eece1a 2px solid;
+      margin: 8px; }
 
 .projects {
   display: grid;
@@ -272,8 +279,21 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
-    grid-template-columns: 1fr; }
+    grid-template-areas: 'bioimage' 'bio' 'edbio';
+    grid-template-columns: 3fr; }
+    .about-info .bio-image {
+      grid-area: bioimage; }
+    .about-info .bio {
+      grid-area: bio;
+      font-size: 17px; }
+    .about-info .about-education .education-text {
+      grid-area: 1 / 1 / span 1 / span 3; }
+    .about-info .about-education .card-1 {
+      grid-area: 2 / 1 / span 1 / span 1; }
+    .about-info .about-education .card-2 {
+      grid-area: 3 / 1 / span 1 / span 1; }
+    .about-info .about-education .card-3 {
+      grid-area: 4 / 1 / span 1 / span 1; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
