@@ -188,6 +188,9 @@ main {
       border-top: #2b2b2b 1px solid;
       border-bottom: #eece1a 3px solid;
       margin: 8px; }
+  .about-info .anchorToggler {
+    color: #eece1a;
+    cursor: pointer; }
 
 .projects {
   display: grid;
