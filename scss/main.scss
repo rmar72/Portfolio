@@ -196,11 +196,19 @@ main {
 
 // Footer
 #main-footer {
+    margin-top: 10px;
     text-align: center;
-    padding: 1rem;
     background: darken($primary-color, 10);
     color: set-text-color($primary-color);
-    height: 60px;
+    height: 50px;
+    padding:13px;
+
+    p, img{
+        display:inline-block;
+    }
+    p{
+        font-size: 13px;
+    }
 }
 
 @import 'mobile'; 
