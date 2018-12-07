@@ -3,6 +3,7 @@
 
 * {
     box-sizing: border-box;
+    cursor: crosshair;
 }
 
 body {
@@ -116,7 +117,7 @@ main {
             margin: 8px;
         }
     }
-    
+
     .anchorToggler {
         color: $secondary_color;
         cursor: pointer;
