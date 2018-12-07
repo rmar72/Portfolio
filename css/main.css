@@ -3,7 +3,6 @@
   z-index: 3;
   right: 35px;
   top: 35px;
-  cursor: pointer;
   transition: all 0.5s ease-out; }
   .menu-btn .btn-line {
     width: 28px;
@@ -92,7 +91,8 @@
   transition-delay: 0.4s; }
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  cursor: crosshair; }
 
 body {
   background: #444;
