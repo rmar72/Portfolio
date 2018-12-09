@@ -144,7 +144,7 @@ main {
     
 }
 
-.project-items{
+.project-item{
     display: inline-block;
     position: relative;
     border-radius: 5%;
@@ -155,7 +155,7 @@ main {
         opacity: 1;
     }
 
-    .proj-item{
+    .img-container{
         display: inline-block;
         position: absolute;
         top: 1px;
