@@ -210,9 +210,9 @@ main {
   border-radius: 5%;
   height: 305px;
   width: 325px; }
-  .project-items:hover .pro-details {
+  .project-items:hover .proj-details {
     opacity: 1; }
-  .project-items .pItem {
+  .project-items .proj-item {
     display: inline-block;
     position: absolute;
     top: 1px;
@@ -221,13 +221,13 @@ main {
     padding: 0px;
     margin: 0px;
     height: 300px; }
-    .project-items .pItem .pImg {
+    .project-items .proj-item .proj-img {
       position: absolute;
       z-index: 0;
       height: 300px;
       width: 320px;
       border-radius: 5%; }
-  .project-items .pro-details {
+  .project-items .proj-details {
     display: inline-block;
     position: absolute;
     z-index: 1;
@@ -238,7 +238,7 @@ main {
     border-radius: 5%;
     text-align: center;
     transition: opacity 300ms ease-out; }
-    .project-items .pro-details a {
+    .project-items .proj-details a {
       background-color: #283347;
       border: 3px solid #8b42ff;
       padding: 7px;
@@ -246,7 +246,7 @@ main {
       color: #fff;
       font-weight: 700;
       transition: background-color 230ms ease-out; }
-      .project-items .pro-details a:hover {
+      .project-items .proj-details a:hover {
         background-color: #8b42ff; }
 
 .boxes {
