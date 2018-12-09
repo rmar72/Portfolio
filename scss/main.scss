@@ -146,62 +146,60 @@ main {
 
 .project-items{
     display: inline-block;
-    border-radius: 5%;
     position: relative;
+    border-radius: 5%;
     height: 305px;
     width: 325px;
-}
 
-.pItem{
-    position: absolute;
-    padding:0px;
-    margin:0px;
-    display: inline-block;
-    height:300px;
-    top:1px;
-    right:0px;
-    left:1px;
-
-    .pImg{
-        position: absolute;
-        z-index: 0;
-        height:300px;
-        width: 320px;
-        border-radius: 5%;
+    &:hover .pro-details{
+        opacity: 1;
     }
-}
 
-.project-items:hover .pro-details{
-    opacity: 1;
-}
-
-.pro-details{
-    position: absolute;
-    z-index: 1;
-    top:0px;
-    background-color: #283347;
-    opacity:0;
-    height:301px;
-    width:322px;
-    border-radius: 5%;
-    display:inline-block;
-    text-align: center;
-    transition: opacity 300ms ease-out;
-
-    a{
-        background: #283347;
-        border:3px solid #8b42ff;
-        padding: 7px;
-        border-radius: 20px;
-        color:#fff;
-        font-weight: 700;
-        transition: all 230ms ease-out;
-
-        &:hover{
-            background: #8b42ff;
+    .pItem{
+        display: inline-block;
+        position: absolute;
+        top: 1px;
+        right: 0px;
+        left: 1px;
+        padding: 0px;
+        margin: 0px;
+        height: 300px;
+        
+        .pImg{
+            position: absolute;
+            z-index: 0;
+            height: 300px;
+            width: 320px;
+            border-radius: 5%;
         }
     }
     
+    .pro-details{
+        display: inline-block;
+        position: absolute;
+        z-index: 1;
+        opacity:0;
+        background-color: #283347;
+        height: 301px;
+        width: 322px;
+        border-radius: 5%;
+        text-align: center;
+        transition: opacity 300ms ease-out;
+    
+        a{
+            background-color: #283347;
+            border: 3px solid #8b42ff;
+            padding: 7px;
+            border-radius: 20px;
+            color:#fff;
+            font-weight: 700;
+            transition: background-color 230ms ease-out;
+    
+            &:hover{
+                background-color:#8b42ff;
+            }
+        }
+    }
 }
 
 
