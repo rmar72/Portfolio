@@ -151,11 +151,11 @@ main {
     height: 305px;
     width: 325px;
 
-    &:hover .pro-details{
+    &:hover .proj-details{
         opacity: 1;
     }
 
-    .pItem{
+    .proj-item{
         display: inline-block;
         position: absolute;
         top: 1px;
@@ -165,7 +165,7 @@ main {
         margin: 0px;
         height: 300px;
         
-        .pImg{
+        .proj-img{
             position: absolute;
             z-index: 0;
             height: 300px;
@@ -174,7 +174,7 @@ main {
         }
     }
     
-    .pro-details{
+    .proj-details{
         display: inline-block;
         position: absolute;
         z-index: 1;
