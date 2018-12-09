@@ -204,15 +204,15 @@ main {
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
 
-.project-items {
+.project-item {
   display: inline-block;
   position: relative;
   border-radius: 5%;
   height: 305px;
   width: 325px; }
-  .project-items:hover .proj-details {
+  .project-item:hover .proj-details {
     opacity: 1; }
-  .project-items .proj-item {
+  .project-item .img-container {
     display: inline-block;
     position: absolute;
     top: 1px;
@@ -221,13 +221,13 @@ main {
     padding: 0px;
     margin: 0px;
     height: 300px; }
-    .project-items .proj-item .proj-img {
+    .project-item .img-container .proj-img {
       position: absolute;
       z-index: 0;
       height: 300px;
       width: 320px;
       border-radius: 5%; }
-  .project-items .proj-details {
+  .project-item .proj-details {
     display: inline-block;
     position: absolute;
     z-index: 1;
@@ -238,7 +238,7 @@ main {
     border-radius: 5%;
     text-align: center;
     transition: opacity 300ms ease-out; }
-    .project-items .proj-details a {
+    .project-item .proj-details a {
       background-color: #283347;
       border: 3px solid #8b42ff;
       padding: 7px;
@@ -246,7 +246,7 @@ main {
       color: #fff;
       font-weight: 700;
       transition: background-color 230ms ease-out; }
-      .project-items .proj-details a:hover {
+      .project-item .proj-details a:hover {
         background-color: #8b42ff; }
 
 .boxes {
