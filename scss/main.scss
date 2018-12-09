@@ -172,7 +172,7 @@ main {
 }
 
 .project-items:hover .pro-details{
-    opacity: 0.9;
+    opacity: 1;
 }
 
 .pro-details{
@@ -189,9 +189,19 @@ main {
     transition: opacity 300ms ease-out;
 
     a{
-        color:#8b42ff;
-        font-weight: 400;
+        background: #283347;
+        border:3px solid #8b42ff;
+        padding: 7px;
+        border-radius: 20px;
+        color:#fff;
+        font-weight: 700;
+        transition: all 230ms ease-out;
+
+        &:hover{
+            background: #8b42ff;
+        }
     }
+    
 }
 
 
