@@ -35,8 +35,8 @@ function toggleMenu(){
 // =====  read more/less script  =====
 edu_descriptions = [
     `Apprenticeship completion for Information Technologist in accordance and established by the Secretary of Labor of Colorado.`,
-    `Received a certificate for Web Development where I applied my knowledge and competed for a spot against another 14 professionals with degrees. Being the little fish among the group I surprised myself and made it to the top ranks.`,
-    `In 2016 I took the self taught route and embarked on learning web development from zero. Since then, I have received numerous certificates from different online learning platforms. My main focus has always been to learn from the best. Nowadays, I'm more caught up with my own projects and the open source community.`
+    `Received a certificate for Web Development where I applied my knowledge and competed for a spot against another 14 professionals with degrees. Being the little fish among the group I surprised myself and made it in the top ranks.`,
+    `In 2016 I took the self taught route and embarked on learning web development from zero. Since then, I have received numerous certificates from different online learning platforms. My main focus has always been to learn from the best. Nowadays, I'm more caught up with my own projects, the open source community and mentoring.`
 ];
 
 let cards = document.querySelectorAll('.card');
