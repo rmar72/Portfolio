@@ -187,13 +187,16 @@ main {
         text-align: center;
         transition: opacity 300ms ease-out;
     
+        > p{
+            font-size: 12px;
+        }
         a{
             background-color: #283347;
             border: 3px solid #8b42ff;
             padding: 7px;
             border-radius: 20px;
             color:#fff;
-            font-weight: 700;
+            font-weight: 600;
             transition: background-color 230ms ease-out;
     
             &:hover{

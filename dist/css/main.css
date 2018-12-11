@@ -238,13 +238,15 @@ main {
     border-radius: 5%;
     text-align: center;
     transition: opacity 300ms ease-out; }
+    .project-item .proj-details > p {
+      font-size: 12px; }
     .project-item .proj-details a {
       background-color: #283347;
       border: 3px solid #8b42ff;
       padding: 7px;
       border-radius: 20px;
       color: #fff;
-      font-weight: 700;
+      font-weight: 600;
       transition: background-color 230ms ease-out; }
       .project-item .proj-details a:hover {
         background-color: #8b42ff; }
