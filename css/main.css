@@ -298,12 +298,30 @@ main {
     font-size: 13px; }
 
 @media screen and (min-width: 1171px) {
+  .private-repos {
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2rem; }
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
+@media (min-width: 1170px) and (max-width: 1397px) {
+  .private-repos {
+    grid-template-columns: repeat(2, 1fr); } }
+
 @media screen and (min-width: 769px) and (max-width: 1170px) {
+  .private-repos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3rem; }
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
+
+@media (min-width: 590px) and (max-width: 735px) {
+  .private-repos .project-item {
+    margin-left: 55px; } }
+
+@media (min-width: 725px) and (max-width: 768px) {
+  .private-repos .project-item {
+    margin-left: 150px; } }
 
 @media screen and (max-width: 768px) {
   main {
