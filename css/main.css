@@ -248,6 +248,11 @@ main {
       transition: background-color 230ms ease-out; }
       .project-item .proj-details a:hover {
         background-color: #8b42ff; }
+    .project-item .proj-details span {
+      display: inline-block; }
+    .project-item .proj-details span p {
+      margin-top: -5px;
+      font-size: 10px; }
 
 .boxes {
   display: flex;
