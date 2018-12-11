@@ -144,12 +144,16 @@ main {
     
 }
 
+.private-repos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .project-item{
-    display: inline-block;
     position: relative;
     border-radius: 5%;
     height: 305px;
-    width: 325px;
+    width: 0px;
 
     &:hover .proj-details{
         opacity: 1;
@@ -158,9 +162,6 @@ main {
     .img-container{
         display: inline-block;
         position: absolute;
-        top: 1px;
-        right: 0px;
-        left: 1px;
         padding: 0px;
         margin: 0px;
         height: 300px;
