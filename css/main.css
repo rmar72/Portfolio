@@ -193,17 +193,34 @@ main {
     cursor: pointer; }
 
 .projects {
-  margin-top: 100px;
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
+    border-radius: 15px;
     width: 100%;
-    border: 3px #fff solid; }
+    border: 3px #fff solid;
+    margin-bottom: 0.5rem; }
     .projects img:hover {
-      opacity: 0.5;
+      opacity: 0.8;
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
+  .projects .project-links {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.3rem;
+    border-radius: 15px;
+    font-size: 13.5px; }
+    .projects .project-links p {
+      display: inline-block;
+      color: #fff;
+      margin: 0px 15px; }
+    .projects .project-links:hover {
+      transition: all 0.5s ease-out;
+      background: #eece1a; }
+      .projects .project-links:hover a, .projects .project-links:hover p {
+        color: #000; }
 
 .private-repos {
   display: grid;
@@ -275,23 +292,6 @@ main {
       color: #000; }
       .boxes div:hover span {
         color: #000; }
-
-.btn, .btn-dark, .btn-light {
-  display: block;
-  padding: 0.5rem 1rem;
-  border: 0;
-  margin-bottom: 0.3rem; }
-  .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
-    color: #000; }
-
-.btn-dark {
-  background: black;
-  color: #fff; }
-
-.btn-light {
-  background: #c4c4c4;
-  color: #333; }
 
 #main-footer {
   margin-top: 10px;
