@@ -222,6 +222,12 @@ main {
       .projects .project-links:hover a, .projects .project-links:hover p {
         color: #000; }
 
+h1.sm-heading {
+  background: #2b2b2b;
+  opacity: 0.6;
+  text-align: center;
+  margin: 35px 0px; }
+
 .private-repos {
   display: grid;
   grid-template-columns: repeat(4, 1fr); }

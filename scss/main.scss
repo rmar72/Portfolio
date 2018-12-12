@@ -168,6 +168,13 @@ main {
     }
 }
 
+h1.sm-heading{
+    background: darken($primary-color, 10);
+    opacity: 0.6;
+    text-align: center;
+    margin: 35px 0px;
+}
+
 .private-repos{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
