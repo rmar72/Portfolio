@@ -29,6 +29,13 @@
     }
 }
 
+// fixes issues with personal projects buttons
+@media(max-width: #{900px}){
+    .projects{
+        grid-template-columns: 1fr;
+    }
+}
+
 // fixes cards to be more centered
 @media(min-width: #{590px}) and (max-width: #{735px}){
     .private-repos{
