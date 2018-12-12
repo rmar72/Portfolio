@@ -215,7 +215,7 @@ main {
     .projects .project-links p {
       display: inline-block;
       color: #fff;
-      margin: 0px 15px; }
+      margin: 0px 13px; }
     .projects .project-links:hover {
       transition: all 0.5s ease-out;
       background: #eece1a; }
@@ -327,7 +327,8 @@ main {
 
 @media (max-width: 900px) {
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr;
+    grid-row-gap: 2rem; } }
 
 @media (min-width: 590px) and (max-width: 735px) {
   .private-repos .project-item {
@@ -415,6 +416,17 @@ main {
 @media (min-width: 340px) and (max-width: 365px) {
   .private-repos {
     margin-left: -13px; } }
+
+@media (min-width: 300px) and (max-width: 390px) {
+  .projects {
+    grid-row-gap: 8rem;
+    margin-bottom: 100px; }
+    .projects .project-links a, .projects .project-links p {
+      font-size: 10px; }
+    .projects .project-links p {
+      margin: 0px 9px; }
+    .projects img {
+      height: 130%; } }
 
 @media (min-width: 200px) and (max-width: 340px) {
   .private-repos {

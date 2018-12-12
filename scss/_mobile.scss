@@ -33,6 +33,7 @@
 @media(max-width: #{900px}){
     .projects{
         grid-template-columns: 1fr;
+        grid-row-gap: 2rem;
     }
 }
 
@@ -187,6 +188,25 @@
 @media(min-width: #{340px}) and (max-width: #{365px}){
     .private-repos{
         margin-left: -13px;            
+    }
+}
+
+@media(min-width: #{300px}) and (max-width: #{390px}){
+    .projects{
+        .project-links{
+            a, p {
+                font-size:10px; 
+            }
+            p{
+                margin: 0px 9px;
+            }
+            
+        }
+        img{
+            height: 130%;
+        }
+        grid-row-gap: 8rem;
+        margin-bottom: 100px;
     }
 }
 
