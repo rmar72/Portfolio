@@ -310,7 +310,7 @@ main {
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 2rem; }
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media (min-width: 1170px) and (max-width: 1397px) {
   .private-repos {
@@ -323,7 +323,7 @@ main {
     grid-column-gap: 3rem;
     grid-row-gap: 2rem; }
   .projects {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media (min-width: 590px) and (max-width: 735px) {
   .private-repos .project-item {
@@ -380,7 +380,7 @@ main {
     margin-left: 25px;
     grid-row-gap: 2rem; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(1, 1fr); } }
 
 @media screen and (max-width: 500px) {
   main {
