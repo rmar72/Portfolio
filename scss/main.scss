@@ -126,23 +126,46 @@ main {
 
 // Work Projects
 .projects {
-    margin-top: 100px;
     display: grid;
     grid-gap: 0.7rem;
     grid-template-columns: repeat(3, 1fr);
 
     img {
+        border-radius: 15px;
         width: 100%;
         border: 3px #fff solid;
+        margin-bottom: 0.5rem;
 
         &:hover {
-            opacity: 0.5;
+            opacity: 0.8;
             border-color: $secondary_color;
             @include easeOut;
         }
     }
 
+    .project-links{
+        background-color: #000;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        margin-bottom: 0.3rem;
+        border-radius: 15px;
+        font-size:13.5px;
     
+        p{
+            display: inline-block;
+            color:#fff;
+            margin: 0px 15px;
+        }
+    
+        &:hover{
+            @include easeOut;
+            background: $secondary_color;
+            a, p{
+                color: #000;
+            }
+            
+        }
+    }
 }
 
 .private-repos{
@@ -215,6 +238,8 @@ main {
 }
 
 
+
+
 // Contact Page
 .boxes {
     display: flex;
@@ -242,28 +267,28 @@ main {
 }
 
 // Button Styles
-.btn {
-    display: block;
-    padding: 0.5rem 1rem;
-    border: 0;
-    margin-bottom: 0.3rem;
-    &:hover {
-        background: $secondary_color;
-        color: set-text-color($secondary_color); 
-    }
-}
+// .btn {
+//     display: block;
+//     padding: 0.5rem 1rem;
+//     border: 0;
+//     margin-bottom: 0.3rem;
+//     &:hover {
+//         background: $secondary_color;
+//         color: set-text-color($secondary_color); 
+//     }
+// }
 
-.btn-dark {
-    @extend .btn;
-    background: darken($primary-color, 50);
-    color: #fff;
-}
+// .btn-dark {
+//     @extend .btn;
+//     background: darken($primary-color, 50);
+//     color: #fff;
+// }
 
-.btn-light {
-    @extend .btn;
-    background: lighten($primary-color, 50);
-    color: #333;
-}
+// .btn-light {
+//     @extend .btn;
+//     background: lighten($primary-color, 50);
+//     color: #333;
+// }
 
 // Footer
 #main-footer {
