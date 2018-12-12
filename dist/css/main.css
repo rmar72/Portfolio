@@ -400,6 +400,22 @@ main {
   .projects {
     grid-template-columns: 1fr; } }
 
-@media (min-width: 280px) and (max-width: 430px) {
+@media (min-width: 414px) and (max-width: 445px) {
+  .private-repos {
+    margin-left: 15px; } }
+
+@media (min-width: 380px) and (max-width: 413px) {
+  .private-repos {
+    margin-left: -5px; } }
+
+@media (min-width: 365px) and (max-width: 380px) {
+  .private-repos {
+    margin-left: 3px; } }
+
+@media (min-width: 340px) and (max-width: 365px) {
+  .private-repos {
+    margin-left: -13px; } }
+
+@media (min-width: 200px) and (max-width: 340px) {
   .private-repos {
     margin-left: -25px; } }
