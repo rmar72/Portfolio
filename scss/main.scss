@@ -76,10 +76,15 @@ main {
     }
 }
 
-//----------- About Page -----------
-#about{
-    font-family: 'Hind Madurai', sans-serif;
+#home{
+    font-family: 'Ubuntu', sans-serif;
 }
+
+.menu, #about, #contact{
+    font-family: 'Muli', sans-serif;
+}
+
+//----------- About Page -----------
 .about-info {
     display: grid;
     grid-gap: 30px;
@@ -98,7 +103,7 @@ main {
 
     .bio {
         grid-area: bio;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .resume{
@@ -297,9 +302,6 @@ h1.sm-heading{
 
 
 //----------- Contact Page -----------
-#contact{
-    font-family: 'Muli', sans-serif;
-}
 .boxes {
     display: flex;
     flex-wrap: wrap;
