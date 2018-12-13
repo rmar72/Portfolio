@@ -201,38 +201,38 @@ h1.sm-heading {
 .private-repos {
   display: grid;
   grid-template-columns: repeat(4, 1fr); }
-  .private-repos .project-item {
+  .private-repos .item {
     position: relative;
     border-radius: 5%;
     height: 305px;
     width: 0px; }
-    .private-repos .project-item:hover .proj-details {
+    .private-repos .item:hover .proj-details {
       opacity: 1; }
-    .private-repos .project-item .img-container {
+    .private-repos .item .img-container {
       display: inline-block;
       position: absolute;
       padding: 0px;
       margin: 0px;
       height: 300px; }
-      .private-repos .project-item .img-container .proj-img {
+      .private-repos .item .img-container .proj-img {
         position: absolute;
         z-index: 0;
         height: 300px;
         width: 320px;
         border-radius: 5%; }
-      .private-repos .project-item .img-container .text, .private-repos .project-item .img-container .ai-text, .private-repos .project-item .img-container .paragryn-text {
+      .private-repos .item .img-container .text, .private-repos .item .img-container .ai-text, .private-repos .item .img-container .paragryn-text {
         position: absolute;
         z-index: 1;
         left: 0px;
         opacity: 0.8;
         padding-left: 10px; }
-      .private-repos .project-item .img-container .ai-text {
+      .private-repos .item .img-container .ai-text {
         top: 220px;
         color: white; }
-      .private-repos .project-item .img-container .paragryn-text {
+      .private-repos .item .img-container .paragryn-text {
         top: 240px;
         color: black; }
-    .private-repos .project-item .proj-details {
+    .private-repos .item .proj-details {
       display: inline-block;
       position: absolute;
       z-index: 1;
@@ -243,9 +243,9 @@ h1.sm-heading {
       border-radius: 5%;
       text-align: center;
       transition: opacity 300ms ease-out; }
-      .private-repos .project-item .proj-details > p {
+      .private-repos .item .proj-details > p {
         font-size: 12px; }
-      .private-repos .project-item .proj-details a {
+      .private-repos .item .proj-details a {
         background-color: #283347;
         border: 3px solid #8b42ff;
         padding: 7px;
@@ -253,11 +253,11 @@ h1.sm-heading {
         color: #fff;
         font-weight: 600;
         transition: background-color 230ms ease-out; }
-        .private-repos .project-item .proj-details a:hover {
+        .private-repos .item .proj-details a:hover {
           background-color: #8b42ff; }
-      .private-repos .project-item .proj-details span {
+      .private-repos .item .proj-details span {
         display: inline-block; }
-      .private-repos .project-item .proj-details span p {
+      .private-repos .item .proj-details span p {
         margin-top: -7px;
         font-size: 10px; }
 
@@ -351,11 +351,11 @@ h1.sm-heading {
     grid-row-gap: 2rem; } }
 
 @media (min-width: 590px) and (max-width: 735px) {
-  .private-repos .project-item {
+  .private-repos .item {
     margin-left: 55px; } }
 
 @media (min-width: 725px) and (max-width: 768px) {
-  .private-repos .project-item {
+  .private-repos .item {
     margin-left: 150px; } }
 
 @media screen and (max-width: 768px) {

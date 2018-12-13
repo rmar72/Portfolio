@@ -40,7 +40,7 @@
 // fixes cards to be more centered
 @media(min-width: #{590px}) and (max-width: #{735px}){
     .private-repos{
-        .project-item{
+        .item{
             margin-left: 55px;
         }
         
@@ -50,7 +50,7 @@
 // same, fixes cards to be more centered
 @media(min-width: #{725px}) and (max-width: #{768px}){
     .private-repos{
-        .project-item{
+        .item{
             margin-left: 150px;
         }
         
