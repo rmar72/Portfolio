@@ -261,37 +261,37 @@ h1.sm-heading {
         margin-top: -7px;
         font-size: 10px; }
 
-.projects {
+.personal-projects {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
-  .projects .project-text {
+  .personal-projects .project-text {
     text-align: center;
     margin-bottom: 0px; }
-  .projects img {
+  .personal-projects img {
     border-radius: 15px;
     width: 100%;
     border: 3px #fff solid;
     margin-bottom: 0.5rem; }
-    .projects img:hover {
+    .personal-projects img:hover {
       opacity: 0.8;
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
-  .projects .project-links {
+  .personal-projects .project-links {
     background-color: #000;
     color: #fff;
     padding: 0.5rem 1rem;
     margin-bottom: 0.3rem;
     border-radius: 15px;
     font-size: 13.5px; }
-    .projects .project-links p {
+    .personal-projects .project-links p {
       display: inline-block;
       color: #fff;
       margin: 0px 13px; }
-    .projects .project-links:hover {
+    .personal-projects .project-links:hover {
       transition: all 0.5s ease-out;
       background: #eece1a; }
-      .projects .project-links:hover a, .projects .project-links:hover p {
+      .personal-projects .project-links:hover a, .personal-projects .project-links:hover p {
         color: #000; }
 
 .boxes {
@@ -329,7 +329,7 @@ h1.sm-heading {
   .private-work {
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 2rem; }
-  .projects {
+  .personal-projects {
     grid-template-columns: repeat(3, 1fr); } }
 
 @media (min-width: 1170px) and (max-width: 1397px) {
@@ -342,11 +342,11 @@ h1.sm-heading {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 3rem;
     grid-row-gap: 2rem; }
-  .projects {
+  .personal-projects {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media (max-width: 900px) {
-  .projects {
+  .personal-projects {
     grid-template-columns: 1fr;
     grid-row-gap: 2rem; } }
 
@@ -404,7 +404,7 @@ h1.sm-heading {
     grid-template-columns: repeat(1, 1fr);
     margin-left: 25px;
     grid-row-gap: 2rem; }
-  .projects {
+  .personal-projects {
     grid-template-columns: repeat(1, 1fr); } }
 
 @media screen and (max-width: 500px) {
@@ -418,7 +418,7 @@ h1.sm-heading {
   .private-work {
     grid-template-columns: repeat(1, 1fr);
     margin-left: 50px; }
-  .projects {
+  .personal-projects {
     grid-template-columns: 1fr; } }
 
 @media (min-width: 414px) and (max-width: 445px) {
@@ -438,14 +438,14 @@ h1.sm-heading {
     margin-left: -13px; } }
 
 @media (min-width: 300px) and (max-width: 390px) {
-  .projects {
+  .personal-projects {
     grid-row-gap: 8rem;
     margin-bottom: 100px; }
-    .projects .project-links a, .projects .project-links p {
+    .personal-projects .project-links a, .personal-projects .project-links p {
       font-size: 10px; }
-    .projects .project-links p {
+    .personal-projects .project-links p {
       margin: 0px 9px; }
-    .projects img {
+    .personal-projects img {
       height: 130%; } }
 
 @media (min-width: 200px) and (max-width: 340px) {
