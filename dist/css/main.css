@@ -198,41 +198,41 @@ h1.sm-heading {
   text-align: center;
   margin: 35px 0px; }
 
-.private-repos {
+.private-work {
   display: grid;
   grid-template-columns: repeat(4, 1fr); }
-  .private-repos .item {
+  .private-work .item {
     position: relative;
     border-radius: 5%;
     height: 305px;
     width: 0px; }
-    .private-repos .item:hover .proj-details {
+    .private-work .item:hover .proj-details {
       opacity: 1; }
-    .private-repos .item .img-container {
+    .private-work .item .img-container {
       display: inline-block;
       position: absolute;
       padding: 0px;
       margin: 0px;
       height: 300px; }
-      .private-repos .item .img-container .proj-img {
+      .private-work .item .img-container .proj-img {
         position: absolute;
         z-index: 0;
         height: 300px;
         width: 320px;
         border-radius: 5%; }
-      .private-repos .item .img-container .text, .private-repos .item .img-container .ai-text, .private-repos .item .img-container .paragryn-text {
+      .private-work .item .img-container .text, .private-work .item .img-container .ai-text, .private-work .item .img-container .paragryn-text {
         position: absolute;
         z-index: 1;
         left: 0px;
         opacity: 0.8;
         padding-left: 10px; }
-      .private-repos .item .img-container .ai-text {
+      .private-work .item .img-container .ai-text {
         top: 220px;
         color: white; }
-      .private-repos .item .img-container .paragryn-text {
+      .private-work .item .img-container .paragryn-text {
         top: 240px;
         color: black; }
-    .private-repos .item .proj-details {
+    .private-work .item .proj-details {
       display: inline-block;
       position: absolute;
       z-index: 1;
@@ -243,9 +243,9 @@ h1.sm-heading {
       border-radius: 5%;
       text-align: center;
       transition: opacity 300ms ease-out; }
-      .private-repos .item .proj-details > p {
+      .private-work .item .proj-details > p {
         font-size: 12px; }
-      .private-repos .item .proj-details a {
+      .private-work .item .proj-details a {
         background-color: #283347;
         border: 3px solid #8b42ff;
         padding: 7px;
@@ -253,11 +253,11 @@ h1.sm-heading {
         color: #fff;
         font-weight: 600;
         transition: background-color 230ms ease-out; }
-        .private-repos .item .proj-details a:hover {
+        .private-work .item .proj-details a:hover {
           background-color: #8b42ff; }
-      .private-repos .item .proj-details span {
+      .private-work .item .proj-details span {
         display: inline-block; }
-      .private-repos .item .proj-details span p {
+      .private-work .item .proj-details span p {
         margin-top: -7px;
         font-size: 10px; }
 
@@ -326,19 +326,19 @@ h1.sm-heading {
     font-size: 13px; }
 
 @media screen and (min-width: 1171px) {
-  .private-repos {
+  .private-work {
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 2rem; }
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
 @media (min-width: 1170px) and (max-width: 1397px) {
-  .private-repos {
+  .private-work {
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 2rem; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
-  .private-repos {
+  .private-work {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 3rem;
     grid-row-gap: 2rem; }
@@ -351,11 +351,11 @@ h1.sm-heading {
     grid-row-gap: 2rem; } }
 
 @media (min-width: 590px) and (max-width: 735px) {
-  .private-repos .item {
+  .private-work .item {
     margin-left: 55px; } }
 
 @media (min-width: 725px) and (max-width: 768px) {
-  .private-repos .item {
+  .private-work .item {
     margin-left: 150px; } }
 
 @media screen and (max-width: 768px) {
@@ -400,7 +400,7 @@ h1.sm-heading {
       grid-area: 3 / 1 / span 1 / span 1; }
     .about-info .about-education .card-3 {
       grid-area: 4 / 1 / span 1 / span 1; }
-  .private-repos {
+  .private-work {
     grid-template-columns: repeat(1, 1fr);
     margin-left: 25px;
     grid-row-gap: 2rem; }
@@ -415,26 +415,26 @@ h1.sm-heading {
     main .lg-heading {
       margin-top: 1rem;
       font-size: 5rem; }
-  .private-repos {
+  .private-work {
     grid-template-columns: repeat(1, 1fr);
     margin-left: 50px; }
   .projects {
     grid-template-columns: 1fr; } }
 
 @media (min-width: 414px) and (max-width: 445px) {
-  .private-repos {
+  .private-work {
     margin-left: 15px; } }
 
 @media (min-width: 380px) and (max-width: 413px) {
-  .private-repos {
+  .private-work {
     margin-left: -5px; } }
 
 @media (min-width: 365px) and (max-width: 380px) {
-  .private-repos {
+  .private-work {
     margin-left: 3px; } }
 
 @media (min-width: 340px) and (max-width: 365px) {
-  .private-repos {
+  .private-work {
     margin-left: -13px; } }
 
 @media (min-width: 300px) and (max-width: 390px) {
@@ -449,5 +449,5 @@ h1.sm-heading {
       height: 130%; } }
 
 @media (min-width: 200px) and (max-width: 340px) {
-  .private-repos {
+  .private-work {
     margin-left: -25px; } }
