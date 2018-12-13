@@ -214,11 +214,12 @@ main {
     color: #eece1a;
     cursor: pointer; }
 
-h1.sm-heading {
-  background: #2b2b2b;
+h1.sm-header {
   opacity: 0.6;
-  text-align: center;
-  margin: 35px 0px; }
+  display: inline-block;
+  margin: 155px 0px 50px 0px;
+  color: rgba(221, 213, 213, 0.568);
+  border-bottom: 2px solid #fff; }
 
 .private-work {
   display: grid;
