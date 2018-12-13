@@ -78,6 +78,7 @@ main {
 
 //----------- About Page -----------
 .about-info {
+    font-family: 'Hind Madurai', sans-serif;
     display: grid;
     grid-gap: 30px;
     grid-template-areas:
@@ -321,18 +322,19 @@ h1.sm-heading{
 
 //----------- Footer -----------
 #main-footer {
+    font-family: 'Shadows Into Light', cursive;
     margin-top: 50px;
     text-align: center;
     background: darken($primary-color, 10);
     color: set-text-color($primary-color);
-    height: 70px;
+    height: 72px;
     padding:13px;
 
     p, img{
         display:inline-block;
     }
     p{
-        font-size: 13px;
+        font-size: 17px;
     }
 }
 

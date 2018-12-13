@@ -163,6 +163,7 @@ main {
       margin-top: 20vh; }
 
 .about-info {
+  font-family: 'Hind Madurai', sans-serif;
   display: grid;
   grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio' 'resume resume resume' 'edbio edbio edbio';
@@ -329,16 +330,17 @@ h1.sm-heading {
         color: #000; }
 
 #main-footer {
+  font-family: 'Shadows Into Light', cursive;
   margin-top: 50px;
   text-align: center;
   background: #2b2b2b;
   color: #fff;
-  height: 70px;
+  height: 72px;
   padding: 13px; }
   #main-footer p, #main-footer img {
     display: inline-block; }
   #main-footer p {
-    font-size: 13px; }
+    font-size: 17px; }
 
 @media screen and (min-width: 1171px) {
   .private-work {
