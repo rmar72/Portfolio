@@ -192,10 +192,82 @@ main {
     color: #eece1a;
     cursor: pointer; }
 
+h1.sm-heading {
+  background: #2b2b2b;
+  opacity: 0.6;
+  text-align: center;
+  margin: 35px 0px; }
+
+.private-repos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+  .private-repos .project-item {
+    position: relative;
+    border-radius: 5%;
+    height: 305px;
+    width: 0px; }
+    .private-repos .project-item:hover .proj-details {
+      opacity: 1; }
+    .private-repos .project-item .img-container {
+      display: inline-block;
+      position: absolute;
+      padding: 0px;
+      margin: 0px;
+      height: 300px; }
+      .private-repos .project-item .img-container .proj-img {
+        position: absolute;
+        z-index: 0;
+        height: 300px;
+        width: 320px;
+        border-radius: 5%; }
+      .private-repos .project-item .img-container .text, .private-repos .project-item .img-container .ai-text, .private-repos .project-item .img-container .paragryn-text {
+        position: absolute;
+        z-index: 1;
+        left: 0px;
+        opacity: 0.8;
+        padding-left: 10px; }
+      .private-repos .project-item .img-container .ai-text {
+        top: 220px;
+        color: white; }
+      .private-repos .project-item .img-container .paragryn-text {
+        top: 240px;
+        color: black; }
+    .private-repos .project-item .proj-details {
+      display: inline-block;
+      position: absolute;
+      z-index: 1;
+      opacity: 0;
+      background-color: #283347;
+      height: 301px;
+      width: 321px;
+      border-radius: 5%;
+      text-align: center;
+      transition: opacity 300ms ease-out; }
+      .private-repos .project-item .proj-details > p {
+        font-size: 12px; }
+      .private-repos .project-item .proj-details a {
+        background-color: #283347;
+        border: 3px solid #8b42ff;
+        padding: 7px;
+        border-radius: 20px;
+        color: #fff;
+        font-weight: 600;
+        transition: background-color 230ms ease-out; }
+        .private-repos .project-item .proj-details a:hover {
+          background-color: #8b42ff; }
+      .private-repos .project-item .proj-details span {
+        display: inline-block; }
+      .private-repos .project-item .proj-details span p {
+        margin-top: -7px;
+        font-size: 10px; }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
+  .projects .project-text {
+    text-align: center;
+    margin-bottom: 0px; }
   .projects img {
     border-radius: 15px;
     width: 100%;
@@ -221,81 +293,6 @@ main {
       background: #eece1a; }
       .projects .project-links:hover a, .projects .project-links:hover p {
         color: #000; }
-
-h1.sm-heading {
-  background: #2b2b2b;
-  opacity: 0.6;
-  text-align: center;
-  margin: 35px 0px; }
-
-.private-repos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); }
-
-.project-item {
-  position: relative;
-  border-radius: 5%;
-  height: 305px;
-  width: 0px; }
-  .project-item:hover .proj-details {
-    opacity: 1; }
-  .project-item .img-container {
-    display: inline-block;
-    position: absolute;
-    padding: 0px;
-    margin: 0px;
-    height: 300px; }
-    .project-item .img-container .proj-img {
-      position: absolute;
-      z-index: 0;
-      height: 300px;
-      width: 320px;
-      border-radius: 5%; }
-    .project-item .img-container .ai-text {
-      top: 220px;
-      color: white; }
-    .project-item .img-container .paragryn-text {
-      top: 240px;
-      color: black; }
-  .project-item .proj-details {
-    display: inline-block;
-    position: absolute;
-    z-index: 1;
-    opacity: 0;
-    background-color: #283347;
-    height: 301px;
-    width: 321px;
-    border-radius: 5%;
-    text-align: center;
-    transition: opacity 300ms ease-out; }
-    .project-item .proj-details > p {
-      font-size: 12px; }
-    .project-item .proj-details a {
-      background-color: #283347;
-      border: 3px solid #8b42ff;
-      padding: 7px;
-      border-radius: 20px;
-      color: #fff;
-      font-weight: 600;
-      transition: background-color 230ms ease-out; }
-      .project-item .proj-details a:hover {
-        background-color: #8b42ff; }
-    .project-item .proj-details span {
-      display: inline-block; }
-    .project-item .proj-details span p {
-      margin-top: -7px;
-      font-size: 10px; }
-
-.text, .project-item .img-container .ai-text, .project-item .img-container .paragryn-text {
-  position: absolute;
-  z-index: 1;
-  left: 0px;
-  opacity: 0.8;
-  padding-left: 10px; }
-
-.project-text {
-  text-align: center;
-  margin-bottom: 0px; }
 
 .boxes {
   display: flex;
