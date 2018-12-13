@@ -204,6 +204,17 @@ h1.sm-heading{
             width: 320px;
             border-radius: 5%;
         }
+
+        .ai-text{ 
+            @extend .text;
+            top: 220px;
+            color: white;
+        }
+        .paragryn-text{
+            @extend .text;
+            top: 240px;
+            color: black;
+        }
     }
     
     .proj-details{
@@ -244,7 +255,18 @@ h1.sm-heading{
     }
 }
 
+.text{
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    opacity: 0.8;
+    padding-left: 10px;
+}
 
+.project-text{
+    text-align: center;
+    margin-bottom: 0px;
+}
 
 
 // Contact Page
