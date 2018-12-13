@@ -54,7 +54,7 @@ header {
 
 main {
     padding: 4rem;
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - 73px);
 
     .icons {
         margin-top: 1rem;
@@ -262,6 +262,10 @@ h1.sm-header{
     grid-gap: 0.7rem;
     grid-template-columns: repeat(3, 1fr);
 
+    .item:nth-last-child(1){
+        margin-bottom: 30px;
+    }
+
     .project-text{
         text-align: center;
         margin-bottom: 0px;
@@ -334,7 +338,7 @@ h1.sm-header{
 //----------- Footer -----------
 #main-footer {
     font-family: 'Shadows Into Light', cursive;
-    margin-top: 50px;
+    // margin-top: 0px;
     text-align: center;
     background: darken($primary-color, 10);
     color: set-text-color($primary-color);
