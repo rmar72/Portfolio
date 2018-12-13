@@ -263,24 +263,35 @@ h1.sm-header {
       left: -1px;
       z-index: 1;
       opacity: 0;
-      background-color: #283347;
+      background-color: #404040;
+      border: 1px solid white;
       height: 302px;
       width: 322px;
       border-radius: 5%;
       text-align: center;
       transition: opacity 300ms ease-out; }
+      .private-work .item .proj-details > hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 2px solid #b4a796;
+        margin: 1em 0;
+        padding: 0; }
       .private-work .item .proj-details > p {
         font-size: 12px; }
       .private-work .item .proj-details a {
-        background-color: #283347;
-        border: 3px solid #8b42ff;
-        padding: 7px;
+        background-color: #404040;
+        border: 1px solid #eece1a;
+        padding: 8px;
         border-radius: 20px;
         color: #fff;
-        font-weight: 600;
+        font-size: 13px;
+        font-weight: 500;
         transition: background-color 230ms ease-out; }
         .private-work .item .proj-details a:hover {
-          background-color: #8b42ff; }
+          cursor: pointer;
+          color: #000;
+          background-color: #eece1a; }
       .private-work .item .proj-details span {
         display: inline-block; }
       .private-work .item .proj-details span p {
