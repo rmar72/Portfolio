@@ -143,6 +143,10 @@ header {
 .text-secondary {
   color: #eece1a; }
 
+.third-text {
+  margin-top: 25px;
+  font-size: 18px; }
+
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
