@@ -162,8 +162,10 @@ main {
     main#home h1 {
       margin-top: 20vh; }
 
+#about {
+  font-family: 'Hind Madurai', sans-serif; }
+
 .about-info {
-  font-family: 'Hind Madurai', sans-serif;
   display: grid;
   grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio' 'resume resume resume' 'edbio edbio edbio';
@@ -309,6 +311,9 @@ h1.sm-heading {
       background: #eece1a; }
       .personal-projects .project-links:hover a, .personal-projects .project-links:hover p {
         color: #000; }
+
+#contact {
+  font-family: 'Muli', sans-serif; }
 
 .boxes {
   display: flex;

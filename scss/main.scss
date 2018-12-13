@@ -77,8 +77,10 @@ main {
 }
 
 //----------- About Page -----------
-.about-info {
+#about{
     font-family: 'Hind Madurai', sans-serif;
+}
+.about-info {
     display: grid;
     grid-gap: 30px;
     grid-template-areas:
@@ -295,6 +297,9 @@ h1.sm-heading{
 
 
 //----------- Contact Page -----------
+#contact{
+    font-family: 'Muli', sans-serif;
+}
 .boxes {
     display: flex;
     flex-wrap: wrap;
