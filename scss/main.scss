@@ -82,6 +82,7 @@ main {
     grid-gap: 30px;
     grid-template-areas:
     'bioimage bio bio'
+    'resume resume resume'
     'edbio edbio edbio';
     grid-template-columns: repeat(3, 1fr);
 
@@ -95,6 +96,22 @@ main {
     .bio {
         grid-area: bio;
         font-size: 1.3rem;
+    }
+
+    .resume{
+        grid-area: resume;
+        margin-left:20px;
+        font-size: 1.3rem;
+        span{
+            display:inline-block;
+        }
+        span p{
+            margin-top:-7px;
+            font-size:10px;
+        }
+        .view{
+            padding-left:7px;
+        }
     }
 
     .about-education{

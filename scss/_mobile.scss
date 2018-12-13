@@ -101,6 +101,7 @@
         grid-template-areas:
         'bioimage'
         'bio'
+        'resume'
         'edbio'
         ;
         
@@ -113,6 +114,11 @@
         .bio {
             grid-area: bio;
             font-size: 17px;
+        }
+
+        .resume{
+            grid-area: resume;
+            margin-left:0px;
         }
 
         .about-education{ 

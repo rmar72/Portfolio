@@ -165,7 +165,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'edbio edbio edbio';
+  grid-template-areas: 'bioimage bio bio' 'resume resume resume' 'edbio edbio edbio';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -175,6 +175,17 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.3rem; }
+  .about-info .resume {
+    grid-area: resume;
+    margin-left: 20px;
+    font-size: 1.3rem; }
+    .about-info .resume span {
+      display: inline-block; }
+    .about-info .resume span p {
+      margin-top: -7px;
+      font-size: 10px; }
+    .about-info .resume .view {
+      padding-left: 7px; }
   .about-info .about-education {
     grid-area: edbio;
     display: grid; }
@@ -389,13 +400,16 @@ h1.sm-heading {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'edbio';
+    grid-template-areas: 'bioimage' 'bio' 'resume' 'edbio';
     grid-template-columns: 3fr; }
     .about-info .bio-image {
       grid-area: bioimage; }
     .about-info .bio {
       grid-area: bio;
       font-size: 17px; }
+    .about-info .resume {
+      grid-area: resume;
+      margin-left: 0px; }
     .about-info .about-education .education-text {
       grid-area: 1 / 1 / span 1 / span 1; }
     .about-info .about-education .card-1 {
