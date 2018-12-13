@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:200|Shadows+Into+Light|Ubuntu");
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -165,7 +166,7 @@ main {
 #home {
   font-family: 'Ubuntu', sans-serif; }
 
-.menu, #about, #contact {
+.menu, #about, #contact, #work {
   font-family: 'Muli', sans-serif; }
 
 .about-info {
@@ -223,6 +224,7 @@ h1.sm-heading {
   display: grid;
   grid-template-columns: repeat(4, 1fr); }
   .private-work .item {
+    font-family: 'Ubuntu', sans-serif;
     position: relative;
     border-radius: 5%;
     height: 305px;
