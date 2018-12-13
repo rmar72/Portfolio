@@ -251,6 +251,12 @@ h1.sm-heading {
       height: 300px;
       width: 320px;
       border-radius: 5%; }
+    .project-item .img-container .ai-text {
+      top: 220px;
+      color: white; }
+    .project-item .img-container .paragryn-text {
+      top: 240px;
+      color: black; }
   .project-item .proj-details {
     display: inline-block;
     position: absolute;
@@ -279,6 +285,17 @@ h1.sm-heading {
     .project-item .proj-details span p {
       margin-top: -7px;
       font-size: 10px; }
+
+.text, .project-item .img-container .ai-text, .project-item .img-container .paragryn-text {
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  opacity: 0.8;
+  padding-left: 10px; }
+
+.project-text {
+  text-align: center;
+  margin-bottom: 0px; }
 
 .boxes {
   display: flex;
