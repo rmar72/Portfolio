@@ -151,13 +151,22 @@ main {
 }
 
 //----------- My Work -----------
-h1.sm-header{
-    opacity: 0.6;
+
+.work-header{ 
     display: inline-block;
-    margin: 155px 0px 50px 0px;
-    // color: rgba(221, 213, 213, 0.568);
+    opacity: 0.6;
     color: #b4a796;
     border-bottom: 2px solid #fff;
+}
+
+.work-header1{
+    @extend .work-header;
+    margin: 50px 0px 40px 15px;
+}
+
+.work-header2{
+    @extend .work-header;
+    margin: 70px 0px 30px 15px;
 }
 
 // Private Projects

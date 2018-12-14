@@ -210,12 +210,17 @@ main {
     color: #eece1a;
     cursor: pointer; }
 
-h1.sm-header {
-  opacity: 0.6;
+.work-header, .work-header1, .work-header2 {
   display: inline-block;
-  margin: 155px 0px 50px 0px;
+  opacity: 0.6;
   color: #b4a796;
   border-bottom: 2px solid #fff; }
+
+.work-header1 {
+  margin: 50px 0px 40px 15px; }
+
+.work-header2 {
+  margin: 70px 0px 30px 15px; }
 
 .private-work {
   display: grid;
