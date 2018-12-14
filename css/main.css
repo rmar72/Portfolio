@@ -344,6 +344,7 @@ h1.sm-header {
   align-items: center;
   margin-top: 1rem; }
   .boxes div {
+    border-radius: 20px;
     font-size: 2rem;
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
