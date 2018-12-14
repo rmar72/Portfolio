@@ -287,11 +287,13 @@ main {
         width: 100%;
         border: 3px solid #fff;
         margin-bottom: 0.5rem;
-        opacity: 0.9;
+        -webkit-filter: grayscale(80%);
+        filter: grayscale(80%);
 
         &:hover {
-            opacity: 1;
             @include easeOut;
+            -webkit-filter: grayscale(80%);
+            filter: grayscale(0%);
         }
     }
 
