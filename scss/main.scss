@@ -202,12 +202,6 @@ h1.sm-header{
                 opacity: 0.8;
                 padding-left: 10px;
             }
-    
-            .ai-text{ 
-                @extend .text;
-                top: 220px;
-                color: white;
-            }
             .paragryn-text{
                 @extend .text;
                 top: 240px;

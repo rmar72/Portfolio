@@ -244,15 +244,12 @@ h1.sm-header {
         height: 300px;
         width: 320px;
         border-radius: 5%; }
-      .private-work .item .img-container .text, .private-work .item .img-container .ai-text, .private-work .item .img-container .paragryn-text {
+      .private-work .item .img-container .text, .private-work .item .img-container .paragryn-text {
         position: absolute;
         z-index: 1;
         left: 0px;
         opacity: 0.8;
         padding-left: 10px; }
-      .private-work .item .img-container .ai-text {
-        top: 220px;
-        color: white; }
       .private-work .item .img-container .paragryn-text {
         top: 240px;
         color: black; }
