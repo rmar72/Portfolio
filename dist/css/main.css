@@ -130,7 +130,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(45, 45, 45, 0.6); }
+    background: rgba(50, 50, 50, 0.6); }
 
 a {
   color: #fff;
@@ -143,10 +143,6 @@ header {
 
 .text-secondary {
   color: #eece1a; }
-
-.third-text {
-  margin-top: 25px;
-  font-size: 18px; }
 
 main {
   padding: 4rem;
