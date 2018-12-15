@@ -91,6 +91,11 @@
             border: solid 3px $secondary_color;
             background-image: url('../img/me.jpg');
             background-size: cover;
+            &:hover{
+                @include easeOut;
+                filter: invert(100%)
+            }
+            
         }
         
     }

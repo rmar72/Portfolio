@@ -60,6 +60,9 @@
       border: solid 3px #eece1a;
       background-image: url("../img/me.jpg");
       background-size: cover; }
+      .menu-branding .portrait:hover {
+        transition: all 0.5s ease-out;
+        filter: invert(100%); }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
