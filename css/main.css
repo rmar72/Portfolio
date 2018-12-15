@@ -58,11 +58,8 @@
       height: 200px;
       border-radius: 50%;
       border: solid 3px #eece1a;
-      background-position: 0px -27px;
-      background-image: linear-gradient(black, black), url("../img/me.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-blend-mode: saturation; }
+      background-image: url("../img/me.jpg");
+      background-size: cover; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
