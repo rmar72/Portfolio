@@ -360,6 +360,29 @@ main {
       color: #000; }
       .boxes div:hover span {
         color: #000; }
+    .boxes div p {
+      font-size: 30px;
+      display: inline-block; }
+    .boxes div .emailers {
+      border: none;
+      text-align: center;
+      margin-bottom: 0px; }
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  .boxes div {
+    width: 105%; } }
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .boxes div {
+    width: 102%; }
+    .boxes div p {
+      font-size: 25px;
+      margin-left: -20px;
+      display: inline-block; } }
 
 #main-footer {
   font-family: 'Shadows Into Light', cursive;
