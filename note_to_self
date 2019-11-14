@@ -1,0 +1,10 @@
+Instructions to use this project
+
+1  npm install
+1.5  npm i -g node-sass, since sass will require it (look at json file, what the first command is)
+
+a) After that to view the project open the index.html page with a quick server like from VScode or a NPM ready to use nodejs server
+b) Open scss directory in a terminal and run - npm run sass    ... this will go into hot-reload mode waiting for any changes done to files in the scss dir
+
+Master branch is not the branch github pages is using but rather the gh-pages branch.
+So when done making new changes, copy xyz file(s) and make the proper replacement into the gh-pages branch
