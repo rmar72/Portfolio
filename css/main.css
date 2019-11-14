@@ -272,6 +272,9 @@ main {
       border-radius: 5%;
       text-align: center;
       transition: opacity 300ms ease-out; }
+      .private-work .item .proj-details > .proj-desc {
+        margin-top: 50px;
+        font-size: 20px; }
       .private-work .item .proj-details > hr {
         display: block;
         height: 1px;
