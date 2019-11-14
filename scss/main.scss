@@ -228,6 +228,10 @@ main {
             border-radius: 5%;
             text-align: center;
             transition: opacity 300ms ease-out;
+            > .proj-desc {
+                margin-top: 50px;
+                font-size: 20px;
+            }
             > hr{
                 display: block;
                 height: 1px;
